@@ -1,0 +1,12 @@
+# Macos 
+.DS_Store
+**/.DS_Store
+.vscode
+**.vscode
+
+# C - eBPF Object Files
+*.o
+
+# eBPF Program binary
+
+spekt
