@@ -1,10 +1,3 @@
->[!NOTE]
-> The contents of this README are also shared on my blog site.
-> To learn more about me,
->   Visit my landing page @[mauricegreen.me](https://mauricegreen.me)
->   to learn more about me, and visit my blog, [The Code Guardian](https://blog.mauricegreen.me/blogs/).
-
-
 # KVM Guest Exit Latency
 Harware-assisted virtualization allows vm guests to switch from guest mode to a `root` mode when the execution of cpu instructions is needed. There is no requirement to translate unpriviledge guest code to privileged code, as with software-assisted virtualization. This exit, however, can be costly and measuring the
 latency of an exit can provide meaningful information.
